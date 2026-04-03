@@ -24,9 +24,9 @@ export default function June() {
 
           <div className="group relative min-h-[360px] overflow-hidden bg-neutral-900 sm:min-h-[420px] md:min-h-[520px] lg:col-span-8 lg:min-h-[600px]">
             <img
-              src="/junho.manu.jpg"
+              src="/junho-manu.jpg"
               alt="Junho"
-              className="className="absolute inset-0 h-full w-full object-cover object-top grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105"
+              className="absolute inset-0 h-full w-full object-cover object-top grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105"
             />
 
             <div className="relative z-10 flex h-full flex-col justify-end bg-gradient-to-t from-black/80 to-transparent p-4 sm:p-6 md:p-12">
@@ -106,7 +106,7 @@ export default function June() {
               <img
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSPdN2pB06pRpNjvO3jJbIKi8_mOKL0n1pEVnENGYgtGdzP9OJb0lDYQo2NX7-GuXnbcacWnszeyatvNOTdtfaTykuw6XLTB98Ppp3-dsYZAgZuHFgLlW-iw1lxkkkLWGYvmPuDNgc7GlsksnB-qzy9wmu4Z8sCUrHSKqQJXska9spWvQmUBcdnCn0ChMyYKdDBaeORVwxzD8A1O3_h5sP5yRXU3eZbWAR9KV6mCTJaU62G63uOBOTyh8yF9J_wHeDmlir1LnED7rI"
                 alt="Local"
-                className="absolute inset-0 h-full w-full object-cover opacity-40 grayscale transition-all duration-700 group-hover:grayscale-0"
+                className="absolute inset-0 h-full w-full object-cover object-top opacity-40 grayscale transition-all duration-700 group-hover:grayscale-0"
               />
             </div>
 
