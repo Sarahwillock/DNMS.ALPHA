@@ -15,7 +15,7 @@ export default function June() {
         <div className="grid grid-cols-1 gap-0 overflow-hidden border-2 border-move-blue lg:grid-cols-12">
           <div className="flex flex-col items-center justify-between border-r-2 border-black bg-move-blue py-10 lg:col-span-1">
             <span className="vertical-text rotate-180 text-xl font-black uppercase tracking-[0.25em] text-white">
-              CENTRO CULTURAL
+              MOVE ALPHAVILLE
             </span>
             <div className="neo-brutalist-shadow flex h-12 w-12 items-center justify-center bg-white">
               <Bolt className="font-bold text-move-blue" size={32} />
@@ -46,26 +46,6 @@ export default function June() {
                 </div>
               </div>
             </div>
-
-            <div className="absolute right-0 top-0 grid h-40 w-40 grid-cols-4 grid-rows-4 gap-1 bg-black/20 p-2">
-              <div className="bg-move-blue" />
-              <div className="bg-move-pink" />
-              <div className="bg-white" />
-              <div className="bg-move-orange" />
-              <div className="bg-white" />
-              <div className="bg-move-blue" />
-              <div className="bg-move-orange" />
-              <div className="bg-move-pink" />
-              <div className="bg-move-orange" />
-              <div className="bg-white" />
-              <div className="bg-move-pink" />
-              <div className="bg-move-blue" />
-              <div className="bg-move-pink" />
-              <div className="bg-move-orange" />
-              <div className="bg-move-blue" />
-              <div className="bg-white" />
-            </div>
-          </div>
 
           <div className="flex flex-col border-l-2 border-black lg:col-span-3">
             {juneEvents.map((event) => (
