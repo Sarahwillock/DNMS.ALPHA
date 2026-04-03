@@ -43,7 +43,7 @@ export default function June() {
 
                 <div className="border-2 border-white bg-black/40 px-4 py-2 backdrop-blur-md sm:border-4 sm:px-6 sm:py-3 md:px-8">
                   <span className="text-xs font-black uppercase tracking-[0.18em] text-white sm:text-sm md:text-lg">
-                    SÃO PAULO - BR
+                    ALPHAVILLE - SP
                   </span>
                 </div>
               </div>
