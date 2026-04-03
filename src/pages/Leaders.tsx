@@ -19,7 +19,7 @@ const leaders = [
   {
     name: 'Robinho e Bea',
     role: 'Rock de 12 a 14 anos',
-    image: '/robinho-bea.jpeg',
+    image: '/robinho-bea.JPEG',
     bio: 'Liderando os pré-adolescentes com propósito, cuidado e identidade em Cristo.',
     instagram: 'https://www.instagram.com/move.alphaville/',
   },
