@@ -64,7 +64,7 @@ export default function Home() {
           {/* ABRIL */}
           <Link to="/move/april" className="group relative h-96 overflow-hidden border-2 border-move-blue">
             <img
-              src="/images/abril.jpg"
+              src="/abril.jpg"
               className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
               alt="Abril"
             />
@@ -77,7 +77,7 @@ export default function Home() {
           {/* MAIO */}
           <Link to="/move/may" className="group relative h-96 overflow-hidden border-2 border-move-pink">
             <img
-              src="/images/maio.jpg"
+              src="/maio.jpg"
               className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
               alt="Maio"
             />
@@ -90,7 +90,7 @@ export default function Home() {
           {/* JUNHO */}
           <Link to="/move/june" className="group relative h-96 overflow-hidden border-2 border-move-orange">
             <img
-              src="/images/junho.manu.jpg"
+              src="/junho.manu.jpg"
               className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
               alt="Junho"
             />
