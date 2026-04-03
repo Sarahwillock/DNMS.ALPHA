@@ -14,7 +14,7 @@ export default function May() {
       {/* Hero Section */}
       <section className="relative h-[80vh] w-full overflow-hidden flex items-center justify-center">
         <img 
-          src="https://lh3.googleusercontent.com/aida/ADBb0uicONRmhG4bJhSISyu3k4ACAPiV9d5J6P9HLx0kGbiT2OEerHQ7yl3oD0jLbk2mZfvSKzKcOccNXD3vwPJEUiHcnJfgw-X0Hlga2_To4xJPJ720G35mLKNt--NAdQfVo-OyTTO3O86Be8HFWUjQz03-iQvuDUmRK-k4qyw3__Nt14GemT4oRqCRJd7MRwCDOeVHwp9OwbGpjDKbbEFhbrfVeVW2AD8fs4J2ssUOcA4xrUYeKZazdyFIWNmM0aUabhVcV4A9xC_eng" 
+          src="/maio.jpg" 
           alt="MOVE May"
           className="absolute inset-0 w-full h-full object-cover grayscale contrast-125 opacity-60"
           referrerPolicy="no-referrer"
