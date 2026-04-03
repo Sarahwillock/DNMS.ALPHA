@@ -35,7 +35,38 @@ export default function GCs() {
       }
     }
   ];
-
+{
+      name: 'GC Rock Pré adolescentes (12 a 14 anos)',
+      leader: 'Robinho e Bea',
+      schedule: 'Sexta',
+      time: '20:00',
+      location: 'Prédio da igreja',
+      color: 'move-blue',
+      event: {
+        title: 'GC Rock - Robinho e Bea',
+        description: 'GC Rock com líderes Robinho e Bea - MOVE Alphaville',
+        location: 'Alphaville',
+        startTime: '20260404T180000Z',
+        endTime: '20260404T200000Z'
+      }
+    },
+    {
+      name: 'GC Rock Adolescentes (15 a 18 anos ',
+      leader: 'Gab',
+      schedule: 'Sexta',
+      time: '20:00',
+      location: 'Local a definir',
+      color: 'move-pink',
+      event: {
+        title: 'GC Rock - Gab',
+        description: 'GC Rock com líder Gab - MOVE Alphaville',
+        location: 'Alphaville',
+        startTime: '20260402T200000Z',
+        endTime: '20260402T220000Z'
+      }
+    }
+  ];
+  
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mx-auto max-w-7xl p-4 sm:p-6 lg:p-8">
       <div className="mb-8 flex items-center gap-3 sm:mb-12 sm:gap-4">
