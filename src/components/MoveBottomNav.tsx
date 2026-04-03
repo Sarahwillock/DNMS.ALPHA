@@ -17,7 +17,7 @@ export default function MoveBottomNav() {
 
   return (
     <nav className="fixed bottom-0 left-0 z-50 w-full overflow-x-auto border-t-2 border-move-blue bg-neutral-950 font-bold uppercase">
-      <div className="flex min-w-max items-center justify-around px-2 md:min-w-0">
+      <div className="flex min-w-max items-center justify-around px-1 md:min-w-0">
         {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = location.pathname === item.path;
@@ -26,14 +26,14 @@ export default function MoveBottomNav() {
               key={item.name}
               to={item.path}
               className={cn(
-                'flex min-w-[80px] flex-1 flex-col items-center justify-center p-3 transition-all',
+                'flex min-w-[72px] flex-1 flex-col items-center justify-center px-2 py-2 transition-all md:min-w-[80px] md:p-3',
                 isActive
                   ? 'border-t-4 border-move-blue bg-move-blue/10 text-move-blue'
                   : 'text-neutral-400 hover:bg-move-pink/5 hover:text-move-pink'
               )}
             >
-              <Icon size={20} className={cn(isActive && 'scale-110')} />
-              <span className="mt-1 text-[10px] tracking-tighter">{item.name}</span>
+             <Icon size={18} className={cn('md:h-5 md:w-5', isActive && 'scale-110')} />
+              <span className="mt-1 text-[9px] leading-tight tracking-tight md:text-[10px]">{item.name}</span>
             </Link>
           );
         })}
