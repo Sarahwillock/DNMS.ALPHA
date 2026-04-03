@@ -97,9 +97,11 @@ export default function Home() {
             className="group relative h-64 overflow-hidden border-2 border-move-orange bg-black sm:h-72 md:h-96"
           >
             <img
-              src="/junho.manu.jpg"
-              className="absolute inset-0 h-full w-full object-contain object-center grayscale transition-all duration-500 group-hover:grayscale-0"
-              alt="Junho"
+              <img
+              src="/images/junho-manu.jpg"
+                className="absolute inset-0 h-full w-full object-cover object-[center_20%] grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                alt="Junhoo
+                />
             />
             <div className="absolute inset-0 bg-black/10 transition-colors group-hover:bg-black/5" />
             <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-5 md:bottom-6 md:left-6">
