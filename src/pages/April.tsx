@@ -10,7 +10,7 @@ export default function April() {
     <div className="relative min-h-screen flex flex-col justify-between overflow-hidden">
       {/* Background Image */}
       <img 
-        src="https://lh3.googleusercontent.com/aida/ADBb0uiAAOYNvj9TvpYA1-SK2D2OTGeSvPclxq4HHhCmQfo1SqxujI4oSbtFHxiqxj2QI5HrTvooYbFZnXHPb2IgKG4NDAmOhT5lGUHrZNeXhLDG6XM5VmGzuxgCoEof6Ww7n-iwgKqFsZsXAP46vSvUxUmQwOjEppKVxf4upnKM_EnsDwNyI9CmZf1CINUMzBj6Tit_Vxz3S-trcoERsR8vBLSxhdKK3YJUtuJ4YmeJfL1C0ZArRwZ2xeplmGd7N4aCuankBUos-I0xeiA" 
+        src="/abril.jpg" 
         alt="MOVE April"
         className="absolute inset-0 w-full h-full object-cover z-0 brightness-50 saturate-[1.2]"
         referrerPolicy="no-referrer"
