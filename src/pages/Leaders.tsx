@@ -4,14 +4,14 @@ import { Instagram, Mail, MapPin } from 'lucide-react';
 const leaders = [
   {
     name: 'Hugo',
-    role: 'Líder da Casa',
+    role: 'Líder Lobby  ',
     image: '/lider1.jpg',
     bio: 'Líder visionário focado em despertar o propósito em cada jovem.',
     instagram: 'https://www.instagram.com/move.alphaville/',
   },
   {
     name: 'Guilherme e Bia',
-    role: 'Líderes',
+    role: 'Líderes Conecta',
     image: '/lideres.jpeg',
     bio: 'Dedicados a construir conexões reais e profundas através dos GCs.',
     instagram: 'https://www.instagram.com/move.alphaville/',
@@ -19,7 +19,7 @@ const leaders = [
   {
     name: 'Robinho e Bea',
     role: 'Rock de 12 a 14 anos',
-    image: '/robinho-bea.jpg',
+    image: '/robinho-bea.jpeg',
     bio: 'Liderando os pré-adolescentes com propósito, cuidado e identidade em Cristo.',
     instagram: 'https://www.instagram.com/move.alphaville/',
   },
