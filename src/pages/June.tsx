@@ -24,7 +24,7 @@ export default function June() {
 
           <div className="group relative min-h-[600px] overflow-hidden bg-neutral-900 lg:col-span-8">
             <img
-              src="/junho-manu.jpg"
+              src="/junho.manu.jpg"
               alt="Event speaker"
               className="absolute inset-0 h-full w-full object-cover grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105"
             />
@@ -103,7 +103,7 @@ export default function June() {
           <div className="neo-brutalist-shadow group relative h-72 overflow-hidden border-4 border-move-blue md:col-span-2">
             <div className="absolute inset-0 bg-neutral-900">
               <img
-                src="/junho-manu.jpg"
+                src="/junho.manu.jpg"
                 alt="Map"
                 className="absolute inset-0 h-full w-full object-cover opacity-40 grayscale transition-all duration-700 group-hover:grayscale-0"
               />
