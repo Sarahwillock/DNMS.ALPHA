@@ -26,7 +26,7 @@ export default function June() {
             <img
               src="/junho.manu.jpg"
               alt="Junho"
-              className="absolute inset-0 h-full w-full object-cover grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105"
+              className="className="absolute inset-0 h-full w-full object-cover object-top grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105"
             />
 
             <div className="relative z-10 flex h-full flex-col justify-end bg-gradient-to-t from-black/80 to-transparent p-4 sm:p-6 md:p-12">
