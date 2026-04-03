@@ -1,43 +1,68 @@
 import { motion } from 'motion/react';
 import { Ticket, Users, Clock, MapPin } from 'lucide-react';
+import { saveToCalendar } from '../lib/calendar';
 
 export default function GCs() {
   const gcs = [
     {
       name: 'GC Lobby',
       leader: 'Hugo',
-      whatsapp: '5511990179029',
       schedule: 'Sábado (15 em 15 dias)',
       time: '17:00',
       location: 'Alphaville',
       color: 'move-blue',
+      event: {
+        title: 'GC Lobby - Hugo',
+        description: 'GC Lobby com líder Hugo - MOVE Alphaville',
+        location: 'Alphaville',
+        startTime: '20260404T180000Z',
+        endTime: '20260404T200000Z',
+      },
     },
     {
       name: 'GC Conecta',
       leader: 'Bia e Gui',
-      whatsapp: '5511952809396',
       schedule: 'Quinta (15 em 15 dias)',
       time: '20:00',
       location: 'Alphaville',
       color: 'move-pink',
+      event: {
+        title: 'GC Conecta - Bia e Gui',
+        description: 'GC Conecta com líderes Bia e Gui - MOVE Alphaville',
+        location: 'Alphaville',
+        startTime: '20260402T200000Z',
+        endTime: '20260402T220000Z',
+      },
     },
     {
       name: 'GC Rock Pré-adolescentes (12 a 14 anos)',
       leader: 'Robinho e Bea',
-      whatsapp: '5511986115207',
       schedule: 'Sexta',
       time: '20:00',
       location: 'Prédio da igreja',
       color: 'move-blue',
+      event: {
+        title: 'GC Rock Pré-adolescentes - Robinho e Bea',
+        description: 'GC Rock de 12 a 14 anos com líderes Robinho e Bea - MOVE Alphaville',
+        location: 'Prédio da igreja',
+        startTime: '20260403T200000Z',
+        endTime: '20260403T220000Z',
+      },
     },
     {
       name: 'GC Rock Adolescentes (15 a 18 anos)',
       leader: 'Gab',
-      whatsapp: '5511986115207',
       schedule: 'Sexta',
       time: '20:00',
       location: 'Local a definir',
       color: 'move-pink',
+      event: {
+        title: 'GC Rock Adolescentes - Gab',
+        description: 'GC Rock de 15 a 18 anos com líder Gab - MOVE Alphaville',
+        location: 'Local a definir',
+        startTime: '20260403T200000Z',
+        endTime: '20260403T220000Z',
+      },
     },
   ];
 
@@ -93,17 +118,14 @@ export default function GCs() {
                 </div>
               </div>
 
-              {/* BOTÃO WHATSAPP */}
-              <a
-                href={`https://wa.me/${gc.whatsapp}?text=Oi%20quero%20participar%20do%20${encodeURIComponent(gc.name)}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`w-full block text-center py-4 text-lg font-black uppercase tracking-tighter text-white transition-all hover:scale-[1.02] active:scale-[0.98] ${
+              <button
+                onClick={() => saveToCalendar(gc.event)}
+                className={`w-full py-4 text-lg font-black uppercase tracking-tighter text-white transition-all hover:scale-[1.02] active:scale-[0.98] ${
                   gc.color === 'move-blue' ? 'bg-move-blue' : 'bg-move-pink'
                 }`}
               >
-                FALAR NO WHATSAPP
-              </a>
+                TE VEJO LÁ
+              </button>
             </div>
 
             <div className="pointer-events-none absolute -bottom-2 right-2 select-none text-6xl font-black italic uppercase opacity-5 sm:-bottom-4 sm:-right-4 sm:text-8xl">
