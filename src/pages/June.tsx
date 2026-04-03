@@ -24,7 +24,7 @@ export default function June() {
 
           <div className="group relative min-h-[360px] overflow-hidden bg-neutral-900 sm:min-h-[420px] md:min-h-[520px] lg:col-span-8 lg:min-h-[600px]">
             <img
-              src="/junho-manu.jpg"
+              src="/junho.manu.jpg"
               alt="Junho"
               className="absolute inset-0 h-full w-full object-cover object-[center_18%] grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105"
             />
