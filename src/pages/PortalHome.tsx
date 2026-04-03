@@ -28,7 +28,7 @@ const units = [
     accent: 'border-move-pink',
     button: 'bg-move-blue text-white hover:bg-move-pink',
     icon: Sparkles,
-    description: 'Abre o projeto MOVE completo com agenda, líderes, GCs, local e os eventos que já existiam.',
+    description: 'Pagina da MOVE grupo de jovens MOVE com agenda, líderes, GCs, local e os eventos que já existiam.',
     image: '/move.JPEG'
   }
 ];
