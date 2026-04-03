@@ -69,7 +69,7 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
             <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-5 md:bottom-6 md:left-6">
-              <h2 className="text-4xl font-black italic uppercase text-white sm:text-5xl md:text-6xl">
+              <h2 className="text-3xl font-black italic uppercase text-white sm:text-5xl md:text-6xl">
                 ABRIL
               </h2>
             </div>
@@ -86,7 +86,7 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
             <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-5 md:bottom-6 md:left-6">
-              <h2 className="text-4xl font-black italic uppercase text-white sm:text-5xl md:text-6xl">
+              <h2 className="text-3xl font-black italic uppercase text-white sm:text-5xl md:text-6xl">
                 MAIO
               </h2>
             </div>
@@ -103,7 +103,7 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-black/10 transition-colors group-hover:bg-black/5" />
             <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-5 md:bottom-6 md:left-6">
-              <h2 className="text-4xl font-black italic uppercase text-white sm:text-5xl md:text-6xl">
+              <h2 className="text-3xl font-black italic uppercase text-white sm:text-5xl md:text-6xl">
                 JUNHO
               </h2>
             </div>
