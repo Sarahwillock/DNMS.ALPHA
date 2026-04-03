@@ -24,7 +24,7 @@ export default function June() {
           {/* Central Content */}
           <div className="lg:col-span-8 relative bg-neutral-900 min-h-[600px] overflow-hidden group">
             <img 
-              src="https://lh3.googleusercontent.com/aida/ADBb0ug1kzA6m5yTz0L4msXeXDnM_guA-w-RIhKFeizL1cVsPlcvHKSR93kb0C9WaAlplSa42qaDuJw7XFzQ7lSuQa786ngPdgQhg0T493RlY_6Ra-FxHWw3NGDO_MMbzFRuSiPJSO0kC8cYC0nVjGiI0_2W1YIzt-OdQGHCVkOSwM0VRkJ__H006mXt2UyUAzofwaIQBlkmA9jbWFTenKPwWburlLokCoM_DvnnaX0ejQ9HYT_8p2qw90iAK7hDV--eIqIVTsNjXDzG7A" 
+              src="/june.manu.jpg" 
               alt="Event speaker" 
               className="absolute inset-0 w-full h-full object-cover grayscale contrast-125 brightness-75 transition-transform duration-700 group-hover:scale-105"
               referrerPolicy="no-referrer"
