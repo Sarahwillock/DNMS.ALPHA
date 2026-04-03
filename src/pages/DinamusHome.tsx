@@ -547,7 +547,7 @@ export default function DinamusHome() {
                     </div>
                     <div>
                       <p className="font-bold text-white">Horários</p>
-                      <p className="mt-1 text-white/65">Segunda a Sexta: 09:00 - 18:00</p>
+                      <p className="mt-1 text-white/65">Segunda a Sexta: via whatsapp</p>
                       <p className="text-white/65">Domingos: 10:00 - 12:00</p>
                     </div>
                   </div>
