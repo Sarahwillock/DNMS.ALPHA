@@ -10,24 +10,24 @@ export default function Home() {
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.3 }}
     >
-      <div className="p-8">
-        {/* PRÓXIMO EVENTO */}
-        <div className="mb-12 border-l-8 border-white bg-move-blue p-8 shadow-[10px_10px_0px_0px_rgba(255,255,255,0.1)]">
-          <h2 className="mb-2 text-2xl font-black italic uppercase tracking-tighter text-white">
+      <div className="p-4 md:p-8">
+        <div className="mb-8 border-l-4 border-white bg-move-blue p-4 shadow-[10px_10px_0px_0px_rgba(255,255,255,0.1)] sm:mb-10 sm:p-6 md:mb-12 md:border-l-8 md:p-8">
+          <h2 className="mb-2 text-base font-black italic uppercase tracking-tighter text-white sm:text-lg md:text-2xl">
             PRÓXIMO EVENTO
           </h2>
 
-          <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
-            <div>
-              <h3 className="mb-2 text-4xl font-black uppercase leading-none text-white md:text-5xl">
+          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <div className="min-w-0">
+              <h3 className="mb-2 text-3xl font-black uppercase leading-none text-white sm:text-4xl md:text-5xl">
                 Seminário de Evangelismo
               </h3>
-              <p className="text-xl font-bold uppercase tracking-widest text-white/80">
+
+              <p className="text-sm font-bold uppercase tracking-wider text-white/80 sm:text-base md:text-xl md:tracking-widest">
                 11 DE ABRIL · SÁBADO · 15:00
               </p>
             </div>
 
-            <div className="flex flex-col gap-4 sm:flex-row">
+            <div className="flex w-full flex-col gap-3 sm:flex-row md:w-auto md:flex-shrink-0 md:gap-4">
               <button
                 onClick={() =>
                   saveToCalendar({
@@ -35,17 +35,17 @@ export default function Home() {
                     description: 'Seminário de Evangelismo - MOVE Alphaville',
                     location: 'Igreja Dinamus Alphaville - Estrada Bela Vista, 2914',
                     startTime: '20260411T150000Z',
-                    endTime: '20260411T180000Z'
+                    endTime: '20260411T180000Z',
                   })
                 }
-                className="bg-white px-8 py-4 text-xl font-black uppercase tracking-tighter text-move-blue transition-all hover:bg-move-pink hover:text-white"
+                className="w-full bg-white px-4 py-3 text-sm font-black uppercase tracking-tighter text-move-blue transition-all hover:bg-move-pink hover:text-white sm:w-auto sm:px-6 sm:text-base md:px-8 md:py-4 md:text-xl"
               >
                 TE VEJO LÁ
               </button>
 
               <Link
                 to="/move/april"
-                className="border-2 border-white px-8 py-4 text-xl font-black uppercase tracking-tighter text-white transition-all hover:bg-white hover:text-move-blue"
+                className="w-full border-2 border-white px-4 py-3 text-center text-sm font-black uppercase tracking-tighter text-white transition-all hover:bg-white hover:text-move-blue sm:w-auto sm:px-6 sm:text-base md:px-8 md:py-4 md:text-xl"
               >
                 VER DETALHES
               </Link>
@@ -53,53 +53,61 @@ export default function Home() {
           </div>
         </div>
 
-        {/* TÍTULO */}
-        <h1 className="mb-8 text-4xl font-black italic uppercase tracking-tighter text-move-blue md:text-6xl">
+        <h1 className="mb-6 text-3xl font-black italic uppercase tracking-tighter text-move-blue sm:mb-8 sm:text-4xl md:text-5xl lg:text-6xl">
           EVENTOS MOVE
         </h1>
 
-        {/* CARDS DOS MESES */}
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          
-          {/* ABRIL */}
-          <Link to="/move/april" className="group relative h-96 overflow-hidden border-2 border-move-blue">
+        <div className="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-3 md:gap-8">
+          <Link
+            to="/move/april"
+            className="group relative h-64 overflow-hidden border-2 border-move-blue sm:h-72 md:h-96"
+          >
             <img
-              src="/abril.jpg"
-              className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
+              src="/images/abril.jpg"
+              className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
               alt="Abril"
             />
             <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
-            <div className="absolute bottom-6 left-6">
-              <h2 className="text-6xl font-black italic uppercase text-white">ABRIL</h2>
+            <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-5 md:bottom-6 md:left-6">
+              <h2 className="text-4xl font-black italic uppercase text-white sm:text-5xl md:text-6xl">
+                ABRIL
+              </h2>
             </div>
           </Link>
 
-          {/* MAIO */}
-          <Link to="/move/may" className="group relative h-96 overflow-hidden border-2 border-move-pink">
+          <Link
+            to="/move/may"
+            className="group relative h-64 overflow-hidden border-2 border-move-pink sm:h-72 md:h-96"
+          >
             <img
-              src="/maio.jpg"
-              className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
+              src="/images/maio.jpg"
+              className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
               alt="Maio"
             />
             <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
-            <div className="absolute bottom-6 left-6">
-              <h2 className="text-6xl font-black italic uppercase text-white">MAIO</h2>
+            <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-5 md:bottom-6 md:left-6">
+              <h2 className="text-4xl font-black italic uppercase text-white sm:text-5xl md:text-6xl">
+                MAIO
+              </h2>
             </div>
           </Link>
 
-          {/* JUNHO */}
-          <Link to="/move/june" className="group relative h-96 overflow-hidden border-2 border-move-orange">
+          <Link
+            to="/move/june"
+            className="group relative h-64 overflow-hidden border-2 border-move-orange sm:h-72 md:h-96"
+          >
             <img
-              src="/junho.manu.jpg"
-              className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
+              src="/images/junho-manu.jpg"
+              className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
               alt="Junho"
             />
             <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
-            <div className="absolute bottom-6 left-6">
-              <h2 className="text-6xl font-black italic uppercase text-white">JUNHO</h2>
+            <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-5 md:bottom-6 md:left-6">
+              <h2 className="text-4xl font-black italic uppercase text-white sm:text-5xl md:text-6xl">
+                JUNHO
+              </h2>
             </div>
           </Link>
-
         </div>
       </div>
     </motion.div>
