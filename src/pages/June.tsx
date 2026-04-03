@@ -105,7 +105,7 @@ export default function June() {
           <div className="neo-brutalist-shadow group relative h-72 overflow-hidden border-4 border-move-blue md:col-span-2">
             <div className="absolute inset-0 bg-neutral-900">
               <img
-                src="/junho.manu.jpg"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSPdN2pB06pRpNjvO3jJbIKi8_mOKL0n1pEVnENGYgtGdzP9OJb0lDYQo2NX7-GuXnbcacWnszeyatvNOTdtfaTykuw6XLTB98Ppp3-dsYZAgZuHFgLlW-iw1lxkkkLWGYvmPuDNgc7GlsksnB-qzy9wmu4Z8sCUrHSKqQJXska9spWvQmUBcdnCn0ChMyYKdDBaeORVwxzD8A1O3_h5sP5yRXU3eZbWAR9KV6mCTJaU62G63uOBOTyh8yF9J_wHeDmlir1LnED7rI"
                 alt="Local"
                 className="absolute inset-0 h-full w-full object-cover opacity-40 grayscale transition-all duration-700 group-hover:grayscale-0"
               />
