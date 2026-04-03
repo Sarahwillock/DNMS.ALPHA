@@ -37,7 +37,7 @@ export default function May() {
 
           <div className="md:col-span-4 flex flex-col gap-4 pb-12">
             <div className="bg-move-blue p-6 border-l-8 border-white shadow-[10px_10px_0px_0px_rgba(255,255,255,0.1)]">
-              <h3 className="font-black text-3xl uppercase leading-none mb-2">O SERVIR</h3>
+              <h3 className="font-black text-3xl uppercase leading-none mb-2">SERVIR</h3>
               <p className="font-bold text-sm tracking-widest opacity-90 uppercase">Mãos que servem, corações que adoram</p>
             </div>
             <div className="bg-move-pink p-6 border-l-8 border-white shadow-[10px_10px_0px_0px_rgba(255,255,255,0.1)]">
