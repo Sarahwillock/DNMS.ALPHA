@@ -22,21 +22,21 @@ export default function June() {
             </div>
           </div>
 
-          <div className="group relative min-h-[360px] overflow-hidden bg-neutral-900 sm:min-h-[420px] md:min-h-[520px] lg:col-span-8 lg:min-h-[600px]">
+          <div className="group relative min-h-[300px] overflow-hidden bg-neutral-900 sm:min-h-[380px] md:min-h-[520px] lg:col-span-8 lg:min-h-[600px]">
             <img
               src="/junho.manu.jpg"
               alt="Junho"
               className="absolute inset-0 h-full w-full object-cover object-[center_18%] grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105"
             />
 
-            <div className="relative z-10 flex h-full flex-col justify-end bg-gradient-to-t from-black/80 to-transparent p-4 sm:p-6 md:p-12">
-              <h1 className="text-[18vw] font-black uppercase leading-none tracking-tighter text-white italic sm:text-[14vw] md:text-[10vw]">
+            <div className="relative z-10 flex h-full flex-col justify-end bg-gradient-to-t from-black/80 to-transparent p-3 sm:p-5 md:p-12">
+              <h1 className="text-[15vw] font-black uppercase leading-none tracking-tighter text-white italic sm:text-[14vw] md:text-[10vw]">
                 JUNHO
               </h1>
 
-              <div className="mt-4 flex flex-wrap gap-3 sm:mt-6 sm:gap-4">
-                <div className="neo-brutalist-shadow bg-move-pink px-4 py-2 sm:px-6 sm:py-3 md:px-8">
-                  <span className="text-xl font-black uppercase leading-none text-white italic sm:text-2xl md:text-3xl">
+              <div className="mt-3 flex flex-wrap gap-2 sm:mt-5 sm:gap-4">
+                <div className="neo-brutalist-shadow bg-move-pink px-3 py-2 sm:px-6 sm:py-3 md:px-8">
+                  <span className="text-lg font-black uppercase leading-none text-white italic sm:text-2xl md:text-3xl">
                     2026
                   </span>
                 </div>
@@ -60,12 +60,12 @@ export default function June() {
                     : event.color === 'white'
                     ? 'bg-white'
                     : 'bg-move-blue'
-                } group/item flex flex-col justify-center border-b-2 border-black p-4 sm:p-6 md:p-8`}
+                } group/item flex flex-col justify-center border-b-2 border-black p-3 sm:p-5 md:p-8`}
               >
                 <div
                   className={`${
                     event.color === 'white' ? 'text-black' : 'text-white'
-                  } mb-3 text-4xl font-black tracking-tighter sm:mb-4 sm:text-5xl md:text-6xl`}
+                  } mb-2 text-3xl font-black tracking-tighter sm:mb-4 sm:text-5xl md:text-6xl`}
                 >
                   {event.date.split('/')[0]}
                 </div>
@@ -79,7 +79,7 @@ export default function June() {
                       event.color === 'white'
                         ? 'border-move-blue text-black'
                         : 'border-white text-white'
-                    } block border-l-4 pl-3 text-xs font-bold uppercase leading-relaxed tracking-tight transition-colors hover:text-move-pink sm:pl-4 sm:text-sm`}
+                    } block border-l-4 pl-3 text-[11px] font-bold uppercase leading-relaxed tracking-tight transition-colors hover:text-move-pink sm:pl-4 sm:text-sm`}
                   >
                     {event.title} - {event.day} · {event.time.split(' ')[0]} · Prédio da Igreja
                   </a>
@@ -100,7 +100,7 @@ export default function June() {
           </div>
         </div>
 
-        <div className="mt-6 grid grid-cols-1 gap-4 sm:mt-8 sm:gap-6 md:grid-cols-3 md:gap-8">
+        <div className="mt-5 grid grid-cols-1 gap-4 sm:mt-8 sm:gap-6 md:grid-cols-3 md:gap-8">
           <div className="neo-brutalist-shadow group relative h-56 overflow-hidden border-4 border-move-blue sm:h-64 md:col-span-2 md:h-72">
             <div className="absolute inset-0 bg-neutral-900">
               <img
