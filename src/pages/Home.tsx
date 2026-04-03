@@ -58,13 +58,15 @@ export default function Home() {
         </h1>
 
         <div className="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-3 md:gap-8">
+
+          {/* ABRIL */}
           <Link
             to="/move/april"
             className="group relative h-64 overflow-hidden border-2 border-move-blue sm:h-72 md:h-96"
           >
             <img
-              src="/abril.jpg"
-              className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+              src="/images/abril.jpg"
+              className="absolute inset-0 h-full w-full object-cover object-top grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
               alt="Abril"
             />
             <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
@@ -75,13 +77,14 @@ export default function Home() {
             </div>
           </Link>
 
+          {/* MAIO */}
           <Link
             to="/move/may"
             className="group relative h-64 overflow-hidden border-2 border-move-pink sm:h-72 md:h-96"
           >
             <img
-              src="/maio.jpg"
-              className="className="absolute inset-0 h-full w-full object-cover object-top grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105""
+              src="/images/maio.jpg"
+              className="absolute inset-0 h-full w-full object-cover object-top grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105"
               alt="Maio"
             />
             <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
@@ -92,13 +95,14 @@ export default function Home() {
             </div>
           </Link>
 
+          {/* JUNHO */}
           <Link
             to="/move/june"
             className="group relative h-64 overflow-hidden border-2 border-move-orange sm:h-72 md:h-96"
           >
             <img
-              src="/junho.manu.jpg"
-              className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+              src="/images/junho-manu.jpg"
+              className="absolute inset-0 h-full w-full object-cover object-top grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
               alt="Junho"
             />
             <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
@@ -108,6 +112,7 @@ export default function Home() {
               </h2>
             </div>
           </Link>
+
         </div>
       </div>
     </motion.div>
