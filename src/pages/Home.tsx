@@ -10,7 +10,7 @@ export default function Home() {
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.3 }}
     >
-      <div className="p-4 md:p-8">
+      <div className="p-4 pb-28 md:p-8">
         <div className="mb-8 border-l-4 border-white bg-move-blue p-4 shadow-[10px_10px_0px_0px_rgba(255,255,255,0.1)] sm:mb-10 sm:p-6 md:mb-12 md:border-l-8 md:p-8">
           <h2 className="mb-2 text-base font-black italic uppercase tracking-tighter text-white sm:text-lg md:text-2xl">
             PRÓXIMO EVENTO
@@ -18,7 +18,7 @@ export default function Home() {
 
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div className="min-w-0">
-              <h3 className="mb-2 text-3xl font-black uppercase leading-none text-white sm:text-4xl md:text-5xl">
+              <h3 className="mb-2 text-2xl font-black uppercase leading-none text-white sm:text-3xl md:text-5xl">
                 Seminário de Evangelismo
               </h3>
 
@@ -53,14 +53,14 @@ export default function Home() {
           </div>
         </div>
 
-        <h1 className="mb-6 text-3xl font-black italic uppercase tracking-tighter text-move-blue sm:mb-8 sm:text-4xl md:text-5xl lg:text-6xl">
+        <h1 className="mb-5 text-2xl font-black italic uppercase tracking-tighter text-move-blue sm:mb-6 sm:text-3xl md:text-5xl lg:text-6xl">
           EVENTOS MOVE
         </h1>
 
         <div className="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-3 md:gap-8">
           <Link
             to="/move/april"
-            className="group relative h-64 overflow-hidden border-2 border-move-blue sm:h-72 md:h-96"
+            className="group relative h-52 overflow-hidden border-2 border-move-blue sm:h-72 md:h-96"
           >
             <img
               src="/abril.jpg"
@@ -77,7 +77,7 @@ export default function Home() {
 
           <Link
             to="/move/may"
-            className="group relative h-64 overflow-hidden border-2 border-move-pink sm:h-72 md:h-96"
+            className="group relative h-52 overflow-hidden border-2 border-move-pink sm:h-72 md:h-96"
           >
             <img
               src="/maio.jpg"
@@ -94,7 +94,7 @@ export default function Home() {
 
           <Link
             to="/move/june"
-            className="group relative h-64 overflow-hidden border-2 border-move-orange sm:h-72 md:h-96"
+            className="group relative h-52 overflow-hidden border-2 border-move-orange sm:h-72 md:h-96"
           >
             <img
               src="/junho.manu.jpg"
