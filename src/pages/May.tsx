@@ -27,8 +27,8 @@ export default function May() {
         <div className="relative z-10 w-full max-w-6xl px-6 grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
           <div className="md:col-span-8 flex flex-col items-start">
             <div className="flex items-center gap-4 mb-2">
-              <span className="bg-move-blue text-white font-black px-4 py-1 text-2xl uppercase tracking-tighter">12.05</span>
-              <span className="text-move-pink font-black text-xl italic uppercase tracking-widest">SÃO PAULO / BR</span>
+              <span className="bg-move-blue text-white font-black px-4 py-1 text-2xl uppercase tracking-tighter">09.05</span>
+              <span className="text-move-pink font-black text-xl italic uppercase tracking-widest">ALPHAVILLE / SP</span>
             </div>
             <h1 className="text-[10rem] md:text-[15rem] leading-[0.8] font-black italic uppercase tracking-tighter text-white drop-shadow-2xl">
               MAIO
@@ -37,16 +37,16 @@ export default function May() {
 
           <div className="md:col-span-4 flex flex-col gap-4 pb-12">
             <div className="bg-move-blue p-6 border-l-8 border-white shadow-[10px_10px_0px_0px_rgba(255,255,255,0.1)]">
-              <h3 className="font-black text-3xl uppercase leading-none mb-2">O FUTURO</h3>
-              <p className="font-bold text-sm tracking-widest opacity-90 uppercase">Conferência Palco Principal</p>
+              <h3 className="font-black text-3xl uppercase leading-none mb-2">O SERVIR</h3>
+              <p className="font-bold text-sm tracking-widest opacity-90 uppercase">Mãos que servem, corações que adoram</p>
             </div>
             <div className="bg-move-pink p-6 border-l-8 border-white shadow-[10px_10px_0px_0px_rgba(255,255,255,0.1)]">
-              <h3 className="font-black text-3xl uppercase leading-none mb-2">IMERSÃO</h3>
-              <p className="font-bold text-sm tracking-widest opacity-90 uppercase">Série de Laboratórios Interativos</p>
+              <h3 className="font-black text-3xl uppercase leading-none mb-2">PERTENCER</h3>
+              <p className="font-bold text-sm tracking-widest opacity-90 uppercase">Pertencer é viver em família, não só em fé</p>
             </div>
             <div className="bg-move-orange p-6 border-l-8 border-white shadow-[10px_10px_0px_0px_rgba(255,255,255,0.1)]">
-              <h3 className="font-black text-3xl uppercase leading-none mb-2">NETWORKING</h3>
-              <p className="font-bold text-sm tracking-widest opacity-90 uppercase">Noite Lounge no Terraço</p>
+              <h3 className="font-black text-3xl uppercase leading-none mb-2">AMADURECER</h3>
+              <p className="font-bold text-sm tracking-widest opacity-90 uppercase">Quem caminha com Deus aprende a amadurecer</p>
             </div>
           </div>
         </div>
