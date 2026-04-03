@@ -81,7 +81,7 @@ export default function Home() {
           >
             <img
               src="/maio.jpg"
-              className="absolute inset-0 h-full w-full object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+              className="className="absolute inset-0 h-full w-full object-cover object-top grayscale brightness-75 contrast-125 transition-transform duration-700 group-hover:scale-105""
               alt="Maio"
             />
             <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
