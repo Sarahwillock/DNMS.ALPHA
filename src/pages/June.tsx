@@ -84,7 +84,7 @@ export default function June() {
           <div className="md:col-span-2 relative h-72 border-4 border-move-blue group overflow-hidden neo-brutalist-shadow">
             <div className="absolute inset-0 bg-neutral-900">
               <img 
-                src="/images/june.manu.jpg" 
+                src="/june.manu.jpg" 
                 alt="Map"
                 className="absolute inset-0 w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
