@@ -1,13 +1,14 @@
 import { motion } from 'motion/react';
-import { Instagram, Mail, MapPin } from 'lucide-react';
+import { Instagram, MessageCircle, MapPin } from 'lucide-react';
 
 const leaders = [
   {
     name: 'Hugo',
-    role: 'Líder Lobby  ',
+    role: 'Líder Lobby',
     image: '/lider1.jpg',
     bio: 'Líder visionário focado em despertar o propósito em cada jovem.',
     instagram: 'https://www.instagram.com/move.alphaville/',
+    whatsapp: '5511990179029',
   },
   {
     name: 'Guilherme e Bia',
@@ -15,6 +16,7 @@ const leaders = [
     image: '/lideres.jpeg',
     bio: 'Dedicados a construir conexões reais e profundas através dos GCs.',
     instagram: 'https://www.instagram.com/move.alphaville/',
+    whatsapp: '5511952809396',
   },
   {
     name: 'Robinho e Bea',
@@ -22,6 +24,7 @@ const leaders = [
     image: '/robinho-bea.JPEG',
     bio: 'Liderando os pré-adolescentes com propósito, cuidado e identidade em Cristo.',
     instagram: 'https://www.instagram.com/move.alphaville/',
+    whatsapp: '5511986115207',
   },
   {
     name: 'Gab',
@@ -29,6 +32,7 @@ const leaders = [
     image: '/gab.jpg',
     bio: 'Ajudando adolescentes a crescerem em fé, maturidade e propósito.',
     instagram: 'https://www.instagram.com/move.alphaville/',
+    whatsapp: '5511986115207',
   },
 ];
 
@@ -60,55 +64,67 @@ export default function Leaders() {
         </header>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-12 xl:gap-20">
-          {leaders.map((leader, index) => (
-            <motion.div
-              key={leader.name}
-              initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: index * 0.2 }}
-              className="group"
-            >
-              <div className="relative aspect-[4/5] overflow-hidden border-2 border-move-blue/30 transition-all duration-500 group-hover:border-move-blue">
-                <img
-                  src={leader.image}
-                  alt={leader.name}
-                  className="h-full w-full scale-105 object-cover object-center transition-all duration-700 group-hover:scale-100"
-                />
+          {leaders.map((leader, index) => {
+            const whatsappLink = `https://wa.me/${leader.whatsapp}?text=${encodeURIComponent(
+              `Oi! Quero falar com ${leader.name} sobre o MOVE.`
+            )}`;
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
+            return (
+              <motion.div
+                key={leader.name}
+                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: index * 0.2 }}
+                className="group"
+              >
+                <div className="relative aspect-[4/5] overflow-hidden border-2 border-move-blue/30 transition-all duration-500 group-hover:border-move-blue">
+                  <img
+                    src={leader.image}
+                    alt={leader.name}
+                    className="h-full w-full scale-105 object-cover object-center transition-all duration-700 group-hover:scale-100"
+                  />
 
-                <div className="absolute bottom-0 left-0 w-full p-4 sm:p-6 lg:p-8">
-                  <span className="mb-3 inline-block bg-move-pink px-3 py-1 text-[10px] font-black uppercase tracking-widest text-white sm:mb-4 sm:text-xs">
-                    {leader.role}
-                  </span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
 
-                  <h2 className="mb-2 text-3xl font-black uppercase italic tracking-tighter sm:text-4xl md:text-5xl">
-                    {leader.name}
-                  </h2>
+                  <div className="absolute bottom-0 left-0 w-full p-4 sm:p-6 lg:p-8">
+                    <span className="mb-3 inline-block bg-move-pink px-3 py-1 text-[10px] font-black uppercase tracking-widest text-white sm:mb-4 sm:text-xs">
+                      {leader.role}
+                    </span>
 
-                  <p className="mb-5 max-w-md text-sm font-medium text-gray-300 sm:mb-6">
-                    {leader.bio}
-                  </p>
+                    <h2 className="mb-2 text-3xl font-black uppercase italic tracking-tighter sm:text-4xl md:text-5xl">
+                      {leader.name}
+                    </h2>
 
-                  <div className="flex gap-4">
-                    <a
-                      href={leader.instagram}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition-all hover:border-move-blue hover:bg-move-blue"
-                    >
-                      <Instagram size={18} />
-                    </a>
+                    <p className="mb-5 max-w-md text-sm font-medium text-gray-300 sm:mb-6">
+                      {leader.bio}
+                    </p>
 
-                    <div className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-white/20 transition-all hover:border-move-pink hover:bg-move-pink">
-                      <Mail size={18} />
+                    <div className="flex gap-4">
+                      <a
+                        href={leader.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition-all hover:border-move-blue hover:bg-move-blue"
+                      >
+                        <Instagram size={18} />
+                      </a>
+
+                      <a
+                        href={whatsappLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition-all hover:border-move-pink hover:bg-move-pink"
+                        aria-label={`Falar com ${leader.name} no WhatsApp`}
+                      >
+                        <MessageCircle size={18} />
+                      </a>
                     </div>
                   </div>
                 </div>
-              </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            );
+          })}
         </div>
 
         <section className="glass-card relative mt-12 overflow-hidden border-move-blue p-6 sm:mt-20 sm:p-8 lg:mt-32 lg:p-12">
