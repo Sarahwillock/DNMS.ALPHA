@@ -122,7 +122,7 @@ export default function Leaders() {
             </h3>
 
             <p className="mb-6 max-w-xl font-bold tracking-wide text-gray-400 sm:mb-8">
-              Estamos todos os sábados e quintas nos GCs e eventos mensais no
+              Estamos todos os sábados e sextas nos GCs e eventos mensais no
               prédio da Igreja Dinamus Alphaville.
             </p>
 
