@@ -19,7 +19,7 @@ const units = [
     accent: 'border-amber-400',
     button: 'bg-amber-400 text-black hover:bg-amber-300',
     icon: GraduationCap,
-    description: 'Página própria da Huios para concentrar módulos, calendário, professores e informações da escola.'
+    description: 'Aguarde, mais tarade novidades.'
   },
   {
     title: 'MOVE',
